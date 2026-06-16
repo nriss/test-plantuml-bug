@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="ImplementationGuide-test.plantuml.bug" original="Resource ImplementationGuide-test.plantuml.bug" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-test.plantuml.bug" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">ImplementationGuide.name</note>
+             </notes>
+        <source>TestPlantUMLBug</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-test.plantuml.bug" resname="ImplementationGuide.title">
+             <notes>
+               <note id="n1">ImplementationGuide.title</note>
+             </notes>
+        <source>Test PlantUML/GraphViz compatibility</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-test.plantuml.bug" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>France (la)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-test.plantuml.bug" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Usager test</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-test.plantuml.bug" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Modèle logique minimal pour le test PlantUML</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-test.plantuml.bug" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Table of Contents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-test.plantuml.bug" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Accueil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-test.plantuml.bug" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Informations sur la traduction</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
