@@ -57,7 +57,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-TestUsager.csv)
   "name" : "TestUsager",
   "title" : "Usager test",
   "status" : "draft",
-  "date" : "2026-06-16T14:21:29+00:00",
+  "date" : "2026-06-16T14:47:27+00:00",
   "description" : "Modèle logique minimal pour le test PlantUML",
   "jurisdiction" : [{
     "coding" : [{
