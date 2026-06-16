@@ -1,0 +1,33 @@
+id: test.plantuml.bug
+canonical: https://example.com/ig/test-plantuml-bug
+name: TestPlantUMLBug
+title: Test PlantUML/GraphViz compatibility
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
+
+dependencies:
+    hl7.fhir.fr.core: 2.1.0
+
+parameters:
+    shownav: 'true'
+    path-expansion-params: '../../expansion-params.json'
+    i18n-default-lang: fr
+    apply-jurisdiction: true
+    i18n-lang:
+      - en
+    translation-sources:
+      - input/translations/en
+
+pages:
+    index.md:
+        title: Accueil
+    translationinfo.md:
+        title: Informations sur la traduction
+
+menu:
+    Accueil: index.html
+    Ressources de conformité: artifacts.html

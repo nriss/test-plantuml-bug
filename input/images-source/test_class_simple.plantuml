@@ -1,0 +1,22 @@
+@startuml
+
+hide empty methods
+
+class Usager #LightPink {
+    identifiant : Identifiant [1..1]
+    nom : Texte [1..1]
+    prenom : Texte [0..1]
+    dateNaissance : Date [0..1]
+    situationFamiliale : Code [0..1]
+}
+
+class Adresse #PaleGreen {
+    type : Code [0..1]
+    codePostal : Code [0..1]
+    localite : Texte [0..1]
+    pays : Code [0..1]
+}
+
+Usager "1" -- "*" Adresse
+
+@enduml
