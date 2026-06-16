@@ -1,0 +1,66 @@
+@startuml
+
+hide empty methods
+
+class Usager #LightPink {
+    matriculeINS : Identifiant [0..1]
+    numSecuriteSociale : Identifiant [0..1]
+    identifiantUsagerESSMS : Identifiant [0..1]
+    numeroIndividuInitial : Identifiant [0..1]
+    nomNaissance : Texte [1..1]
+    nomUsage : Texte [0..1]
+    prenom : Texte [0..1]
+    premierPrenomActeNaissance : Texte [0..1]
+    prenomUtilise : Texte [0..1]
+    sexe : Code [0..1]
+    civilite : Code [0..1]
+    dateNaissance : Date [0..1]
+    ordreNaissanceEtatCivil : Numerique [0..1]
+    communeNaissance : Code [0..1]
+    departementNaissance : Code [0..1]
+    paysNaissance : Code [0..1]
+    situationFamiliale : Code [0..1]
+    compositionFoyer : Code [0..*]
+    descriptionCompositionFoyer : Texte [0..1]
+    paysNationalite : Code [0..*]
+    langueParlee : Code [0..*]
+    dateDeces : DateHeure [0..1]
+    causeMortalite : Code [0..*]
+    communeDeces : Code [0..1]
+    departementDeces : Code [0..1]
+    paysDeces : Code [0..1]
+    photo : ObjetBinaire [0..*]
+    commentaire : Texte [0..1]
+}
+
+class Adresse #PaleGreen {
+    type : Code [0..1]
+    numeroVoie : Texte [0..1]
+    libelleVoie : Texte [0..1]
+    complementPointGeographique : Texte [0..1]
+    mentionDistribution : Texte [0..1]
+    codePostal : Code [0..1]
+    localite : Texte [0..1]
+    pays : Code [0..1]
+    commentaire : Texte [0..1]
+}
+
+class Telecommunication #PaleGreen {
+    canal : Code [1..1]
+    typeMessagerie : Code [0..1]
+    adresseTelecom : Texte [1..1]
+    utilisation : Code [0..1]
+}
+
+class Courrier #PaleGreen {
+    typeCourrier : Code [0..1]
+    libelleDestinataire : Texte [0..1]
+    organismeDomiciliation : Texte [0..1]
+}
+
+Usager "1" -- "*" Adresse
+Usager "1" -- "*" Telecommunication
+Usager "1" - "*" Courrier
+Courrier "*" - "1..1" Adresse
+
+@enduml
