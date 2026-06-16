@@ -14,7 +14,7 @@
   "name" : "TestPlantUMLBug",
   "title" : "Test PlantUML/GraphViz compatibility",
   "status" : "draft",
-  "date" : "2026-06-16T15:51:38+00:00",
+  "date" : "2026-06-16T16:03:19+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,10 +1,10 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-test.plantuml.bug.json	2126	-	0	0	0	0	0	1	18	87	0	0	0	0	1	0	0	1	0	0	13	124	149	0	0	0	2	0	3
-fsh-generated/resources/StructureDefinition-TestUsager.json	1312	4	0	8	2	0	1	0	0	77	0	0	0	0	0	0	0	0	0	0	1	51	693	0	0	0	2	0	0
+/fsh-generated/resources/ImplementationGuide-test.plantuml.bug.json	2126	-	0	0	0	0	0	0	18	81	0	0	0	0	0	0	0	1	0	0	12	115	152	0	0	0	3	0	2
+fsh-generated/resources/StructureDefinition-TestUsager.json	1312	5	0	8	2	0	0	0	0	73	0	0	0	0	0	0	0	0	0	0	1	60	779	0	0	0	2	0	0
 /fsh-generated/includes/menu.xml	1062	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
 /fsh-generated/includes/fsh-link-references.md	49	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/translationinfo.md	59	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/index.md	2546	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/translationinfo.md	59	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/index.md	2546	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /temp/pages/_includes/artifacts.xml	1637	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0
