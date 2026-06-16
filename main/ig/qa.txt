@@ -3,7 +3,7 @@ TestPlantUMLBug : Validation Results
 
 err = 1, warn = 6, info = 0
 IG Publisher Version: 2.2.9
-Generated Tue Jun 16 16:04:32 UTC 2026. FHIR version 4.0.1 for test.plantuml.bug#0.1.0 (canonical = https://example.com/ig/test-plantuml-bug)
+Generated Tue Jun 16 16:19:55 UTC 2026. FHIR version 4.0.1 for test.plantuml.bug#0.1.0 (canonical = https://example.com/ig/test-plantuml-bug)
  Build Errors : 1 / 5 / 0
  /home/runner/work/test-plantuml-bug/test-plantuml-bug/igSource/fsh-generated/resources/ImplementationGuide-test.plantuml.bug : 0 / 1 / 1
  /home/runner/work/test-plantuml-bug/test-plantuml-bug/igSource/fsh-generated/resources/StructureDefinition-TestUsager : 0 / 0 / 1
