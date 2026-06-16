@@ -1,0 +1,62 @@
+@startuml
+
+map "meta" as meta #DarkGray {
+    dateModificationEvenement_Statut.dateStatut => lastUpdated
+}
+
+map "Statut.statut : status" as Statutstatut #DarkGray {
+    Statut.motifNonRealisation => <&plus> TDDUIEventCancelReason
+    Statut.auteur => <&plus> TDDUIStatusAuthor
+}
+
+map "TDDUIPractitioner/TDDUIPractitionerRole" as participant #DarkGray {
+    Participant.presenceParticipant => <&plus> TDDUIParticipantPresent
+}
+
+map "period" as period #DarkGray {
+    dateDebutEvenement => start
+    dateFinEvenement => end
+}
+
+object "**TDDUIPatient**" as TDDUIPatient_subject #80b1d3 {
+    Usager
+}
+
+object "**TDDUIOrganization**" as TDDUIOrganization_serviceProvider #fb8072 {
+    Participant.structureEnCharge
+    Participant.presenceParticipant => <&plus> TDDUIStructurePresent
+}
+
+object "**TDDUIEncounterSejour**" as TDDUIEncounterSejour_partOf #ffffb3 {
+    sejour
+}
+
+map "**Événement : TDDUIEncounterEvenement**" as Événement #ffffb3 {
+    RessourceUtilisee => <&plus> TDDUIRessourcesUsed
+    typeRessourceUtilisee => <&plus> TDDUIRessourcesUsed.extension:TDDUIRessourceType
+    detailTypeRessourceUtilisee => <&plus> TDDUIRessourcesUsed.extension:TDDUIMaterialDetail
+    detailTypeRessourceUtilisee => <&plus> TDDUIRessourcesUsed.extension:TDDUIFacilityResource
+    libelleEvenement => <&plus> TDDUIEventLabel
+    commentaireEvenement => <&plus> TDDUIComment
+    compteRenduEvenement => <&plus> TDDUIEventReport
+    pieceJointeEvenement => <&plus> TDDUIAttachment
+    evenementHorsPrestation => <&plus> TDDUIEventOutsideService
+    motifEvenement => <&plus> TDDUIEventReason
+    usagerPresent => <&plus> TDDUIPatientPresent
+    repas => <&plus> TDDUIMeal
+    validationUsager => <&plus> TDDUIPatientValidation
+    idEvenement => identifier
+    typeEvenement => type
+    lieuEvenement => location
+    meta *--> meta
+    Statut.statut => status
+    participant.individual *-> participant
+    period *--> period
+}
+
+Événement::Statut.statut -u-> Statutstatut
+Événement -d-> TDDUIPatient_subject : subject
+Événement -d-> TDDUIOrganization_serviceProvider : serviceProvider
+Événement -d-> TDDUIEncounterSejour_partOf : partOf
+
+@enduml
