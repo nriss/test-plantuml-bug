@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-TestUsager.csv), 
   "name" : "TestUsager",
   "title" : "Usager test",
   "status" : "draft",
-  "date" : "2026-06-16T15:00:36+00:00",
+  "date" : "2026-06-16T15:13:20+00:00",
   "description" : "Modèle logique minimal pour le test PlantUML",
   "jurisdiction" : [{
     "coding" : [{
