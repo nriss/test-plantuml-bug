@@ -1,0 +1,20 @@
+TestPlantUMLBug : Validation Results
+=========================================
+
+err = 1, warn = 6, info = 0
+IG Publisher Version: 2.2.9
+Generated Tue Jun 16 14:22:43 UTC 2026. FHIR version 4.0.1 for test.plantuml.bug#0.1.0 (canonical = https://example.com/ig/test-plantuml-bug)
+ Build Errors : 1 / 5 / 0
+ /home/runner/work/test-plantuml-bug/test-plantuml-bug/igSource/fsh-generated/resources/ImplementationGuide-test.plantuml.bug : 0 / 1 / 1
+ /home/runner/work/test-plantuml-bug/test-plantuml-bug/igSource/fsh-generated/resources/StructureDefinition-TestUsager : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[30].value: Supressed messages file not found
+WARNING: 1: An HTML fragment from the set [ip-statements.xhtml, ip-statements.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml, dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: An HTML fragment from the set [globals-table.xhtml, globals-table.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 5: An HTML fragment from the set [expansion-params.xhtml, expansion-params.xhtml] is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-test.plantuml.bug.json ==
+WARNING: ImplementationGuide/test.plantuml.bug: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.fr.core#2.1.0 released on 2024-09-04, but the most recent appropriate version is 2.2.0. This reference is getting old and the more recent version should be considered
+== fsh-generated/resources/StructureDefinition-TestUsager.json ==

@@ -1,0 +1,14 @@
+[{
+  "id" : "test.plantuml.bug",
+  "type" : "ImplementationGuide",
+  "url" : "https://example.com/ig/test-plantuml-bug/ImplementationGuide/test.plantuml.bug",
+  "version" : "0.1.0",
+  "name" : "TestPlantUMLBug"
+},
+{
+  "id" : "TestUsager",
+  "type" : "StructureDefinition",
+  "url" : "https://example.com/ig/test-plantuml-bug/StructureDefinition/TestUsager",
+  "version" : "0.1.0",
+  "name" : "TestUsager"
+}]

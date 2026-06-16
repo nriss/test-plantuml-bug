@@ -1,0 +1,17 @@
+# test.plantuml.bug#0.1.0: Test PlantUML/GraphViz compatibility(en)
+
+## Pages
+
+* [Accueil](index.md)
+* [Informations sur la traduction](translationinfo.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### Logicals
+
+* [Usager test](StructureDefinition-TestUsager.md)
+
+### ImplementationGuides
+
+* [Test PlantUML/GraphViz compatibility](ImplementationGuide-test.plantuml.bug.md)
