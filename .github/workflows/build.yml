@@ -1,21 +1,23 @@
-name: Test PlantUML/GraphViz
+
+name: Workflow Sushi Tests gitHubpages
 on:
+  workflow_call:
   push:
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 jobs:
-  build-fix-graphviz:
-    name: "Test avec fix-graphviz-version (GraphViz 14.1.5)"
+  run-sushi-tests_gitHubPages:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
+        with:      
           path: igSource
       - uses: ansforge/IG-workflows@fix-graphviz-version
-        with:
-          repo_ig: "./igSource"
+        with:      
+          repo_ig: "./igSource"   
           github_page: "true"
           github_page_token: ${{ secrets.GITHUB_TOKEN }}
           bake: "false"
           validator_cli: "false"
           generate_testscript: "false"
-          generate_plantuml: "false"
+          generate_plantuml : "false"
